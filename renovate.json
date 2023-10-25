@@ -5,7 +5,9 @@
   ],
   "branchConcurrentLimit": 20,
   "prHourlyLimit": 10,
+  "labels": ["autosubmit"],
   "enabledManagers": ["pub"],
+  "ignoreDeps": ["sdk"],
   "packageRules": [
     {
       "matchManagers": ["pub"]
