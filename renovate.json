@@ -4,6 +4,7 @@
     "config:base"
   ],
   "branchConcurrentLimit": 20,
+  "enabledManagers": ["pub"],
   "packageRules": [
     {
       "matchManagers": ["pub"]
