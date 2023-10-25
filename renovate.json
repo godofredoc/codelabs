@@ -4,16 +4,11 @@
     "config:base"
   ],
   "branchConcurrentLimit": 20,
+  "prHourlyLimit": 10,
   "enabledManagers": ["pub"],
   "packageRules": [
     {
       "matchManagers": ["pub"]
-    },
-    {
-      "matchPackagePrefixes": [
-        "^adaptive_app/.*"
-      ],
-      "groupName": "adaptive_app"
     }
   ]
 }
