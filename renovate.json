@@ -1,0 +1,17 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:base"
+  ],
+  "packageRules": [
+    {
+      "matchManagers": ["pub"]
+    },
+    {
+      "matchPackagePrefixes": [
+        "^adaptive_app/.*"
+      ],
+      "groupName": "adaptive_app"
+    }
+  ]
+}
