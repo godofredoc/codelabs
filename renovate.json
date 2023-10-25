@@ -9,7 +9,7 @@
     },
     {
       "matchPackagePrefixes": [
-        "^adaptive_app/.*"
+        "adaptive_app/"
       ],
       "groupName": "adaptive_app"
     }
